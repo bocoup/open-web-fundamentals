@@ -20,4 +20,4 @@ Key concepts:
 3. `node index.js`
 4. Visit `http://localhost:8080/`
 
-While in development, run `grunt lint` to lint javascript files.
+While in development, run `grunt` to watch and lint all javascript files, as well as concat custom and vendor css.
