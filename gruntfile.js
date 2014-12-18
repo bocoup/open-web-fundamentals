@@ -13,14 +13,19 @@ module.exports = function(grunt) {
     watch: {
       app: {
         files: ['app/*.js', '*.js'],
-        tasks: ['jshint']
+        tasks: ['jshint', 'concat']
+      }
+    },
+    concat: {
+      css_main: {
+        src: [
+          'app/vendor/Skeleton-2.0.2/css/*',
+          'app/styles/*'
+        ],
+        dest: 'public/css/styles.css'
       }
     }
   });
-
-  grunt.registerTask('lint', 'Lint the Javascript',[
-    'jshint'
-  ]);
 
   grunt.registerTask('dev', 'Development Mode', [
     'watch'
