@@ -1,0 +1,17 @@
+{
+  "name": "open-web-fundamentals",
+  "description": "a celebration and exploration of the open web, for and by those interested in becoming responsible and informed web makers and consumers",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bocoup/open-web-fundamentals.git"
+  },
+  "dependencies": {
+    "express": "^4.10.6"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "load-grunt-tasks": "^1.0.0"
+  }
+}
