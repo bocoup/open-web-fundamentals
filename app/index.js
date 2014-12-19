@@ -20,7 +20,12 @@ app.get('/topics/:topic', function(req, res){
 });
 
 app.get('/', function(req, res){
-  res.render('index');
+  var topics_data = fs.readdirSync('app/data/');
+  var topics_names = [];
+  for(var i=0; i<topics_data.length; i++){
+    topics_names.push(topics_data[i].substr(0, topics_data[i].lastIndexOf('.')) || topics_data[i]);
+  }
+  res.render('index', { topics: topics_names });
 });
 
 module.exports = app;
