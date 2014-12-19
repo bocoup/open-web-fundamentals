@@ -12,15 +12,15 @@ module.exports = function(grunt) {
     },
     watch: {
       app: {
-        files: ['app/*.js', '*.js'],
+        files: ['app/*.js', 'app/styles/*', '*.js'],
         tasks: ['jshint', 'concat']
       }
     },
     concat: {
       css_main: {
         src: [
-          'app/vendor/Skeleton-2.0.2/css/*',
-          'app/styles/*'
+          'app/styles/*',
+          'app/vendor/Skeleton-2.0.2/css/*'
         ],
         dest: 'public/css/styles.css'
       }
@@ -28,6 +28,7 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('dev', 'Development Mode', [
+    'concat',
     'watch'
   ]);
 
