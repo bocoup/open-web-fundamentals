@@ -1,9 +1,8 @@
 extends ./layout
 
 block content
-  h1 Open Web Fundamentals!
-  h2 Topics
+  h5 Topics
   ul
     for topic in topics
       li
-        a(href="/topics/"+topic)!= topic
+        a(href="/topics/"+topic).button!= topic
