@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     watch: {
       app: {
         files: ['app/*.js', 'app/styles/*', '*.js'],
-        tasks: ['jshint', 'concat']
+        tasks: ['jshint', 'concat', 'cssmin']
       }
     },
     concat: {
@@ -24,11 +24,20 @@ module.exports = function(grunt) {
         ],
         dest: 'public/css/styles.css'
       }
+    },
+    cssmin: {
+      minify: {
+        files: [{
+          src: 'public/css/styles.css',
+          dest: 'public/css/styles.min.css'
+        }]
+      }
     }
   });
 
   grunt.registerTask('dev', 'Development Mode', [
     'concat',
+    'cssmin:minify',
     'watch'
   ]);
 
