@@ -7,6 +7,15 @@ h1 {
   text-align: center;
 }
 
+.topics {
+  list-style: none;
+}
+
+.topic {
+  margin: 5px 10px;
+  display: inline-block;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**

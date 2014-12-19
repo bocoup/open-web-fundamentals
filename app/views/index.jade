@@ -2,7 +2,7 @@ extends ./layout
 
 block content
   h5 Topics
-  ul
+  ul.topics.row.u-cf
     for topic in topics
-      li
+      li.topic.pull-left
         a(href="/topics/"+topic).button!= topic

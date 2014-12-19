@@ -6,3 +6,12 @@ h1 {
   margin: 18rem 0;
   text-align: center;
 }
+
+.topics {
+  list-style: none;
+}
+
+.topic {
+  margin: 5px 10px;
+  display: inline-block;
+}
