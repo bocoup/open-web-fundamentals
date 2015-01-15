@@ -4,10 +4,30 @@ An API or an Application Programmer Interface is the collection of public, or *e
 
 ## CRUD Application API
 
+The primary way the term API is used is to describe a set of endpoints that an application exposes for the purpose of allowing a client to perform certain tasks regarding the resources associated with that application. Those tasks are often known as CRUD tasks:
+
+- Create: make a new resource
+- Read: get a resource(s) data
+- Update: edit a resource's data
+- Delete: remove a resource
+
 ## Library and Framework APIs
+
+The word API is also used when talking about the public methods that a library or framework exposes to the programmer. For example, you might hear someone say, "The new versin of the jQuery API exposes some new methods." It is less common, though still quite frequently used.
 
 ## Standards and Conventions
 
+APIs are the backbone of modern web development, so it's no wonder that standards and conventions have been designed for them. These standards and conventions primarily address the first type of API, describing the endpoints of an application.
+
 ### REST
 
+We can take the CRUD actions and more or less map them to HTTP methods.
+
+- Create => POST or PUT
+- Read => GET
+- Update => PUT
+- Delete => DELETE
+
 ### json-api
+
+Unlike REST, json-api is a standard for formatting the JSON response from an API.
