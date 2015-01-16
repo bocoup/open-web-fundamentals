@@ -8,9 +8,13 @@ In this relationship, the client is a computer, much like the one you are on rig
 
 # Requests
 
+![client-request](/img/request.jpg)
+
 Say we are trying to access a website from the browser on our computer. To do this, we'll type a URL into a browser and hit enter, or click a link; either way, when we do so we'll be sending a *request* to another computer, the *server*.
 
 # Responses
+
+![server-response](/img/response.jpg)
 
 When we send a request to a server, assuming it gets to the server, we will get a message back from that server called a *response*. This response will be accompanied by a status code, letting us know if we were successful, and if so what happened, or alternatively, if something went wrong, and if so, where it went wrong.
 
