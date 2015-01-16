@@ -39,6 +39,8 @@ div {
 
 ## Where does it go?
 
+![css_where-does-it-go](/img/css_where.jpg)
+
 CSS can be added to your HTML in three different ways: inline, internally, and externally.
 
 ### Inline
