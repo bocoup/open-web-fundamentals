@@ -17,7 +17,7 @@ The key thing for a beginner to know is that RESTful web services are self-conta
 
 The uniform interface is a mapping of HTTP methods to resource-based URIs representing either a collection of resources or an individual resource; these URIs are called collection and elements URIs.
 
-### Collections and Element URIs
+### Collection and Element URIs
 
 A collection URI should return a data structure containing all of that type of resource. While not always followed, it is convention to pluralize the resource name.
 
