@@ -15,3 +15,7 @@ h1 {
   margin: 5px 10px;
   display: inline-block;
 }
+
+p img {
+  width: 80%;
+}
