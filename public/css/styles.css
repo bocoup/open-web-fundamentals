@@ -16,6 +16,10 @@ h1 {
   display: inline-block;
 }
 
+p img {
+  width: 80%;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
