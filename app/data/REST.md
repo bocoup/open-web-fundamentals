@@ -3,6 +3,7 @@
 REST is a convention for building web services, like an API. Conventions are rules and practices that groups of people agree to in order to streamline the production of a shared or similar product or service. Web services built following the REST convention, or any convention, are more predictable and maintainable than web services not built following a convention. This makes them easier and faster for other developers to use, build, and contribute to, because developers do not need to spend time learning the bespoke rules of an individual web service. 
 
 Based on the original specification made by Roy Fielding in his dissertation, RESTful web services conform to six constraints:
+
 - Uniform Interface
 - Stateless
 - Cacheable
