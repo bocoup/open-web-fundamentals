@@ -1,5 +1,7 @@
 # The Client-Server Relationship
 
+![client-server](img/client-server.gif)
+
 One of the most important concepts to understand in web development is the relationship between two computers, the client and the server, during a web transaction.
 
 In this relationship, the client is a computer, much like the one you are on right now, that is accessing content on the web throughthe browser or the terminal. 
