@@ -10,4 +10,9 @@ The status codes are organized by number, with each "hundred" meaning something 
 - `4xx` Client Error: The client tried to do something incorrectly or tried to do something that was not possible
 - `3xx` Redirection: The server is changing the Request-URI
 - `2xx` Success: It worked!
+
+![status_code_200](/img/status_200.gif)
+
 - `1xx` Information
+
+![status_code_100](/img/status_100.gif)
