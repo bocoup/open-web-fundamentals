@@ -7,8 +7,17 @@ It's ok to just use `100`, `200`, `300`, `400`, or `500`! All the other codes ar
 The status codes are organized by number, with each "hundred" meaning something different:
 
 - `5xx` Server Error: The server messed up!
+
+![status_code_500](/img/status_500.gif)
+
 - `4xx` Client Error: The client tried to do something incorrectly or tried to do something that was not possible
+
+![status_code_400](/img/status_400.gif)
+
 - `3xx` Redirection: The server is changing the Request-URI
+
+![status_code_300](/img/status_300.gif)
+
 - `2xx` Success: It worked!
 
 ![status_code_200](/img/status_200.gif)
