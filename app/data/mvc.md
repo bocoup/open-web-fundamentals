@@ -1,12 +1,14 @@
 # MVC (Model-View-Controller)
 
+![mvc](/img/mvc.gif)
+
 MVC, or Model-View-Controller, is a design pattern that is very common among web development frameworks. MVC, like other design patterns, helps a developer organize an application in a maintainable and predictable way that supports the values of modularity and separating concerns.
 
 As the acronym suggests, MVC breaks an application down into three critical parts: the model, the view, and the controller.
 
 ## Model
 
-Models are what we use to describe the type of data we have in our application. Generally speaking, a model is a class; it has a name and it has both attributes which hold data and behaviors that give it functionality.
+Models are what we use to describe the type of data we have in our application. It serves as a blueprint; the model specifies all the general aspects of the data, including properties it may have, which we call attributes, as well as behaviors, which will be defined as methods or functions.
 
 ## View 
 
