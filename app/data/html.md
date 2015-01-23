@@ -2,6 +2,8 @@
 
 HTML, or Hypertext Markup Language, is the language we use to specify the structure of our document. It is composed of a series of tags that form elements. 
 
+![html to layout](/img/html.gif)
+
 ## Elements
 
 You can "change" the default behavior of a type of element by changing its `display` property with CSS. 
