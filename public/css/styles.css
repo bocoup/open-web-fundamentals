@@ -20,8 +20,12 @@ p img {
   width: 80%;
 }
 
-#image-map {
+.image-map, #web-nav-img {
   width: 100%;
+}
+
+body {
+  padding-top: 40px;
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */

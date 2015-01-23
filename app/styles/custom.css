@@ -23,3 +23,7 @@ p img {
 .image-map, #web-nav-img {
   width: 100%;
 }
+
+body {
+  padding-top: 40px;
+}
