@@ -10,32 +10,29 @@ For example:
 
 - IDs: ID selectors are preceded with a `#`. IDs are the most specific type of selector because there can only be one element on a page with a given ID. IDs are not a very good way to do styles because they don't encourage reusing styles.
 
-```html
-<div id="about"></div>
+`<div id="about"></div>`
 
-#about {
-  background-color: purple;
-}
-```
+`#about {`
+`  background-color: purple;`
+`}`
 
 - Classes: Class selectors are preceded with a `.`. Classes are a good way to reuse styles and are the most common selector used.
 
-```html
-<div class="article"></div>
 
-.article {
-  text-align: right;
-}
-```
+`<div class="article"></div>`
+
+`.article {`
+`  text-align: right;`
+`}`
+
 - Element: Element selectors are the least specific selector and are often used in resets to remove native browser-styling or boilerplates to set basic styles.
  
-```html
-<div></div>
+`<div></div>`
 
-div {
-  margin: 20px;
-}
-```
+`div {`
+`  margin: 20px;`
+`}`
+
 
 ## Where does it go?
 
@@ -47,9 +44,8 @@ CSS can be added to your HTML in three different ways: inline, internally, and e
 
 Inline CSS is written as a string in the `style` attribute of an HTML tag. For example:
 
-```html
-<div style="background-color: red; color: blue; border: 1px solid yellow"></div>
-```
+
+`<div style="background-color: red; color: blue; border: 1px solid yellow"></div>`
 
 This type of CSS can target only *one* element, the element it is an attribute of, and as a result is the most specific type of CSS you can write. This means that the styles you write inline on an element will beat all other types of styles you might write that could target that element. 
 
@@ -57,26 +53,23 @@ This type of CSS can target only *one* element, the element it is an attribute o
 
 Internal styles are written between `<style></style>` tags in the `<head>` of your HTML. For example:
 
-```html
-<head>
-  <style>
-    div {
-      background-color: green;
-      color: white;
-    }
-  </style>
-</head>
-```
+`<head>`
+`  <style>`
+`    div {`
+`      background-color: green;`
+`      color: white;`
+`    }`
+`  </style>`
+`</head>`
 
 ### External
 
 External styles are separate `.css` files that are included in your HTML by using `<link/>` elements in the `<head>` of your HTML. For example, given a `styles/custom.css` file:
 
-```html
-<head>
-  <link href="styles/custom.css" rel="stylesheet"/>
-</head>
-```
+`<head>`
+`  <link href="styles/custom.css" rel="stylesheet"/>`
+`</head>`
+
 
 Internal and external style specificity is based on the order they are placed in the `<head>` of your HTML. The last styles declared or loaded are the most specific. Because of this, it makes sense to load or declare more general styles first, such as boilerplates like Twitter Bootstrap or a reset, and then later load/declare more custom styling.
 
