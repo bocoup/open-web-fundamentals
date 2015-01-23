@@ -32,6 +32,14 @@ area {
   border: none;
 }
 
+#web-nav-img {
+  padding-bottom: 40px;
+  z-index: -99999;
+  position: relative;
+}
+
+
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**

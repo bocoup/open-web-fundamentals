@@ -31,3 +31,11 @@ body {
 area {
   border: none;
 }
+
+#web-nav-img {
+  padding-bottom: 40px;
+  z-index: -99999;
+  position: relative;
+}
+
+
