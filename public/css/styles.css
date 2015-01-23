@@ -2,8 +2,8 @@ h1 {
   color: darkturquoise;
 }
 
-.header {
-  margin: 18rem 0;
+h1 {
+  padding: 40px 0 0 0;
   text-align: center;
 }
 
@@ -34,10 +34,7 @@ area {
 
 #web-nav-img {
   padding-bottom: 40px;
-  z-index: -99999;
-  position: relative;
 }
-
 
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
