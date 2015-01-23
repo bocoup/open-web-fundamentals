@@ -9,3 +9,7 @@ html(lang="en")
     .container
       include ./partials/header
       block content
+  script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js") 
+  script(src="/js/imagemap-resizer/js/imageMapResizer.js")
+  script.
+    $('map').imageMapResize();

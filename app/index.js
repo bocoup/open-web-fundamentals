@@ -20,12 +20,13 @@ app.get('/topics/:topic', function(req, res){
 });
 
 app.get('/', function(req, res){
+  var image_map = fs.readFileSync('app/views/map.html');
   var topics_data = fs.readdirSync('app/data/');
   var topics_names = [];
   for(var i=0; i<topics_data.length; i++){
     topics_names.push(topics_data[i].substr(0, topics_data[i].lastIndexOf('.')) || topics_data[i]);
   }
-  res.render('index', { topics: topics_names });
+  res.render('index', { topics: topics_names, image_map: image_map });
 });
 
 module.exports = app;

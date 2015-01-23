@@ -19,3 +19,7 @@ h1 {
 p img {
   width: 80%;
 }
+
+.image-map, #web-nav-img {
+  width: 100%;
+}
