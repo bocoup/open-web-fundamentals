@@ -7,6 +7,20 @@ h1 {
   text-align: center;
 }
 
+.about {
+  position: fixed;
+  top: 10px;
+  left: 60px;
+}
+
+.about h1 {
+  text-align: left;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
 .topics {
   list-style: none;
 }

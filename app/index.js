@@ -18,6 +18,10 @@ app.get('/topics/:topic', function(req, res){
   res.render('topic', { topic_data: topic_data });
 });
 
+app.get('/about', function(req, res){
+  res.render('about');
+});
+
 app.get('/', function(req, res){
   var image_map = fs.readFileSync('app/views/map.html');
   var topics_data = fs.readdirSync('app/data/');
